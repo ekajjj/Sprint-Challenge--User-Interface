@@ -72,19 +72,22 @@ p {
     flex-direction: row;
     justify-content: space-between;
     margin: auto;
-    padding: 30px;
+    padding: 10px;
     font-size: 14px;
+    
 }
-.nav_img {
+/* .nav_img {
     display: flex;
 
     align-items: center;
-}
+} */
 
  .nav_item {
     position: relative;
+    display: flex;
     justify-content: center;
-    bottom: 50px;
+    bottom: 30px;
+    left: 40px;
 } 
 
 .text-container {
@@ -136,44 +139,44 @@ p {
     justify-content: center;
 }
 
-.box .box1 {
-    background: rgb(0,128,128);
+.middle-content .boxes .box1 {
+    background: teal;
 } 
 
-.box2 {
-    background: yellow;
+.middle-content .boxes .box2 {
+    background: gold;
 } 
 
-.box3 {
-    background: rgb(95,158,160);
+.middle-content .boxes .box3 {
+    background: cadetblue;
 }
 
-.box4 { 
-    background: orange;
+.middle-content .boxes .box4 { 
+    background: coral;
 }
 
-.box5 { 
-    background: red;
+.middle-content .boxes .box5 { 
+    background:crimson;
 }
 
-.box6 {
-    background: green;
+.middle-content .boxes .box6 {
+    background: forestgreen;
 }
 
-.box7 {
-    background: purple;
+.middle-content .boxes .box7 {
+    background: darkorchid;
 }
 
-.box8 {
-    background: pink;
+.middle-content .boxes .box8 {
+    background: hotpink;
 }
 
-.box9 {
-    background: purple;
+.middle-content .boxes .box9 {
+    background: indigo;
 }
 
-.box10 {
-    background: blue;
+.middle-content .boxes .box10 {
+    background: dodgerblue;
 }
 .bottom-content {
     display: flex;
