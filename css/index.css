@@ -70,22 +70,22 @@ p {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items center;
+    justify-content: space-between;
     margin: auto;
     padding: 30px;
     font-size: 14px;
 }
 .nav_img {
     display: flex;
-    justify-content: flex-start;
+
     align-items: center;
 }
 
-/* .nav_item {
+ .nav_item {
     position: relative;
-    top: 15px;
-} */
+    justify-content: center;
+    bottom: 50px;
+} 
 
 .text-container {
     text-decoration: bold;
@@ -136,6 +136,45 @@ p {
     justify-content: center;
 }
 
+.box .box1 {
+    background: rgb(0,128,128);
+} 
+
+.box2 {
+    background: yellow;
+} 
+
+.box3 {
+    background: rgb(95,158,160);
+}
+
+.box4 { 
+    background: orange;
+}
+
+.box5 { 
+    background: red;
+}
+
+.box6 {
+    background: green;
+}
+
+.box7 {
+    background: purple;
+}
+
+.box8 {
+    background: pink;
+}
+
+.box9 {
+    background: purple;
+}
+
+.box10 {
+    background: blue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
