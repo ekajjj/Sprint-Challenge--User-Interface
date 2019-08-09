@@ -60,6 +60,7 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    
 }
 
 p {
@@ -76,6 +77,10 @@ p {
     font-size: 14px;
     
 }
+.nav_container a {
+    text-decoration: none;
+    color: black;
+}
 /* .nav_img {
     display: flex;
 
@@ -90,14 +95,21 @@ p {
     left: 40px;
 } 
 
-.text-container {
-    text-decoration: bold;
-}
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+.section_one {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section_two {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
