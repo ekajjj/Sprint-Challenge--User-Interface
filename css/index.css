@@ -105,10 +105,15 @@ p {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.section_two {
+/* .section_two {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
+} */
+
+.section_two{
+    display: flex;
+    justify-content: space-between;
 }
 .top-content {
     display: flex;
@@ -128,7 +133,9 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.middle-content .section_two {
+    margin: 10px;
+}
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -204,6 +211,13 @@ p {
     padding-right: 0;
 }
 
+.learn_button {
+    border: 1px solid black;
+    border-radius: 40px;
+    width: 150px;
+    text-align:center;
+    padding: 10px;
+}
 footer {
     width: 100%;
     background: black;
