@@ -157,7 +157,9 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+.bottom_content .text-container{
+   margin: 10px;
+}
 .middle-content .boxes .box1 {
     background: teal;
 } 
@@ -212,8 +214,8 @@ p {
 }
 
 .learn_button {
-    border: 1px solid black;
-    border-radius: 40px;
+    border: 2px solid black;
+    border-radius: 200px;
     width: 150px;
     text-align:center;
     padding: 10px;
